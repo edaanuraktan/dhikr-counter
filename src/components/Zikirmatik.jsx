@@ -20,28 +20,18 @@ const defaultTargets = [
     text: "100x Subhanallahi ve Bihamdihi",
     goal: 100,
     count: 0,
-    group: "GÜNLÜK VİRD"
-  },
-  {
-    id: "subhanallahilazim",
-    text: "100x Subhanallahil Azim ve Bihamdihi Estağfurullah El Azim",
-    goal: 100,
-    count: 0,
-    group: "GÜNLÜK VİRD"
   },
   {
     id: "salavat_2",
     text: "100x Salavat",
     goal: 100,
     count: 0,
-    group: "GÜNLÜK VİRD"
   },
   {
-    id: "la_ilahe",
+    id: "tevhid",
     text: "1001x La İlahe İllallah",
     goal: 1001,
     count: 0,
-    group: "GÜNLÜK VİRD"
   },
 ];
 
@@ -193,7 +183,7 @@ const Zikirmatik = () => {
         left: "20px",
         zIndex: 9999
       }}>
-        <span onClick={() => setPanelOpen(!panelOpen)} title="Hedefler" style={{ cursor: "pointer", fontSize: "1.8rem" }}>📜</span>
+        <span onClick={() => setPanelOpen(!panelOpen)} title="Hedefler" style={{ cursor: "pointer", fontSize: "1.8rem" }}>🎯</span>
       </div>
 
       {/* Hedef Paneli */}
@@ -213,7 +203,7 @@ const Zikirmatik = () => {
           borderTopRightRadius: "16px",
           borderBottomRightRadius: "16px"
         }}>
-          <h2 style={{ fontSize: "1.5rem", marginBottom: "1rem", borderBottom: "1px solid #ccc", paddingBottom: "0.5rem" }}>🎯 Günlük Zikir Hedefleri</h2>
+          <h2 style={{ fontSize: "1.5rem", marginBottom: "1rem", borderBottom: "1px solid #ccc", paddingBottom: "0.5rem" }}> Günlük Zikir Hedefleri</h2>
           <input value={newTargetText} onChange={e => setNewTargetText(e.target.value)} placeholder="Yeni hedef ekle" style={{ padding: 6, width: "100%", marginBottom: "0.5rem" }} />
           <button onClick={addTarget} style={{ width: "100%", padding: "0.5rem", backgroundColor: "#4caf50", color: "white", border: "none", borderRadius: 6 }}>Ekle</button>
           <ul style={{ listStyle: "none", padding: 0, marginTop: "1rem" }}>
@@ -242,7 +232,7 @@ const Zikirmatik = () => {
         <h2 style={{ marginTop: "0.3rem", marginBottom: "1rem", fontSize: 50 }}>⏱️ {selectedTarget.text}</h2>
 
         <label>
-          🎯 Hedef:
+           Hedef:
           <input
             type="number"
             value={selectedTarget.goal}

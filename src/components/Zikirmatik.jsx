@@ -131,7 +131,7 @@ const Zikirmatik = () => {
     borderRadius: "300px",
     padding: "5rem",
     margin: "1rem 0",
-    boxShadow: "0 10px 20px rgba(0,0,0,0.1)",
+    boxShadow: "0 25px 50px rgba(0,0,0,0.1)",
     textAlign: "center",
     maxWidth: "520px",
     marginInline: "auto",
@@ -229,7 +229,7 @@ const Zikirmatik = () => {
 
       {/* Zikirmatik */}
       <div style={containerStyle}>
-        <h2 style={{ marginTop: "0.3rem", marginBottom: "1rem", fontSize: 50 }}>⏱️{selectedTarget.text}</h2>
+        <h2 style={{ marginTop: "0.3rem", marginBottom: "1rem", fontSize: 70 }}>⏱️{selectedTarget.text}</h2>
 
         <label>
            Hedef:
@@ -251,7 +251,7 @@ const Zikirmatik = () => {
           />
         </label>
 
-        <div style={{ fontSize: "9.2rem", margin: "1.2rem 0", marginTop: "4.7rem", marginBottom: "3rem", fontWeight: "bold" }}>
+        <div style={{ fontSize: "9.8rem", margin: "1.2rem 0", marginTop: "4.7rem", marginBottom: "3rem", fontWeight: "bold" }}>
           {selectedTarget.count}
         </div>
 

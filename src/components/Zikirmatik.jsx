@@ -22,13 +22,13 @@ const defaultTargets = [
     count: 0,
   },
   {
-    id: "salavat_2",
+    id: "salavat-2",
     text: "100x Salavat",
     goal: 100,
     count: 0,
   },
   {
-    id: "tevhid",
+    id: "tevhid-2",
     text: "1001x La İlahe İllallah",
     goal: 1001,
     count: 0,
@@ -229,7 +229,7 @@ const Zikirmatik = () => {
 
       {/* Zikirmatik */}
       <div style={containerStyle}>
-        <h2 style={{ marginTop: "0.3rem", marginBottom: "1rem", fontSize: 50 }}>⏱️ {selectedTarget.text}</h2>
+        <h2 style={{ marginTop: "0.3rem", marginBottom: "1rem", fontSize: 50 }}>⏱️{selectedTarget.text}</h2>
 
         <label>
            Hedef:
@@ -264,7 +264,7 @@ const Zikirmatik = () => {
             ))}
           </div>
         ) : (
-          <button onClick={() => increment()} style={{ ...btnStyle, padding: "4.4rem 4.4rem", marginLeft: "2rem", fontSize: 30 }}>+1</button>
+          <button onClick={() => increment()} style={{ ...btnStyle, padding: "9rem 9rem", marginLeft: "2rem", fontSize: 30 }}>+1</button>
         )}
 
         <button onClick={reset} style={{ ...btnStyle, backgroundColor: "#e53935", marginLeft: "3rem", borderRadius: "800px" }}>Sıfırla</button>

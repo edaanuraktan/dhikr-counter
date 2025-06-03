@@ -267,7 +267,7 @@ const Zikirmatik = () => {
           <button onClick={() => increment()} style={{ ...btnStyle, padding: "9rem 9rem", marginLeft: "2rem", fontSize: 30 }}>+1</button>
         )}
 
-        <button onClick={reset} style={{ ...btnStyle, backgroundColor: "#e53935", marginLeft: "3rem", borderRadius: "800px" }}>Sıfırla</button>
+        <button onClick={reset} style={{ ...btnStyle, backgroundColor: "#e53935", marginLeft: "3rem", marginTop: "5rem",borderRadius: "800px" }}>Sıfırla</button>
       </div>
     </div>
   );

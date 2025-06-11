@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Zikirmatik from "./components/Zikirmatik";
+import Zikirmatik from "./screens/HomeScreen";
 
 function App() {
   return (

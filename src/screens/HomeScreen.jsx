@@ -8,9 +8,9 @@ const todayKey = new Date().toISOString().split("T")[0];
 const defaultTargets = [
   { id: "tevhid", text: "Tevhid", goal: 5000, count: 0 },
   { id: "salavat", text: "Salavat", goal: 1000, count: 0 },
-  { id: "subhanallahi", text: "100x Subhanallahi ve Bihamdihi", goal: 100, count: 0 },
-  { id: "salavat-2", text: "100x Salavat", goal: 100, count: 0 },
-  { id: "tevhid-2", text: "1001x La İlahe İllallah", goal: 1001, count: 0 },
+  { id: "subhanallahi", text: "Günlük Vird: Tövbe", goal: 100, count: 0 },
+  { id: "salavat-2", text: "Günlük Vird: Salavat", goal: 100, count: 0 },
+  { id: "tevhid-2", text: "Günlük Vird: Tevhid", goal: 1001, count: 0 },
 ];
 
 const HomeScreen = () => {
